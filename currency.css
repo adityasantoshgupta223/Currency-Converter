@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+#currency{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.container{
+    padding-left: 25%;
+    padding-right: 25%;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    inset: 0;
+    }
+.box{
+    flex: 1;
+    padding: 10px;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37 );
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.amount, .precision{
+    width: 100%;
+    padding: 20%;
+    border-color: blue;
+    color: blue;
+    outline: none;
+    padding: 5px;
+}
+
+.amount{
+     border-radius: 6px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.change{
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change i {
+    font-size: xx-large;
+    color: cyan;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.currency{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid  blue;
+}
+
+h2, h3{
+    margin: 5px 0;
+    font-weight: bold;
+
+}
+.result{
+   padding: 5px;
+   border: 2px solid blue;
+    border-radius: 6px;
+
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1);
+    transition-duration: 10ms;
+}
+
+button:disabled{
+    background-color: gray;
+}
+
+button:hover{
+    box-shadow: 5px 5px 9px 2px rgba(255, 255, 255, .15);
+    transform: scale(.98);
+}
+.hide{
+    display: none;
+}
