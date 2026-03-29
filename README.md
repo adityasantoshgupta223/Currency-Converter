@@ -2,17 +2,19 @@
 
 A simple and efficient Currency Converter web app that allows users to convert between different currencies using real-time exchange rates.
 
-<h2> Features </h2>
-1. 🌍 Convert between multiple currencies  
-2. 🔄 Real-time exchange rates using API  
-3. ⚡ Fast and responsive UI  
-4. 🔢 Accurate conversion calculations  
-5. 📱 Simple and clean interface  
+## Features
+
+- 🌍 Convert between multiple currencies
+- 🔄 Real-time exchange rates using API  
+- ⚡ Fast and responsive UI  
+- 🔢 Accurate conversion calculations  
+- 📱 Simple and clean interface  
 
 ## Tech Stack 
-Frontend: HTML, CSS, JavaScript
-API: Exchange Rate API (Frankfurter)
-Version Control: Git + GitHub
+
+- Frontend: HTML, CSS, JavaScript
+- API: Exchange Rate API (Frankfurter)
+- Version Control: Git + GitHub
 
 <h2>📂 Project Structure </h2>
 <pre>
