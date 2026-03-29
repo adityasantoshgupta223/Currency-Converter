@@ -15,12 +15,8 @@ API: Exchange Rate API (Frankfurter)
 Version Control: Git + GitHub
 
 <h2>📂 Project Structure </h2>
-Currency-Converter/
-│── currency.html
-│── currency.css
-│── currency.js
-│── conversion.js
-│── README.md
+<pre>
+ ```plaintext Currency-Converter/ │── currency.html │── currency.css │── currency.js │── conversion.js │── README.md ``` </pre>
 
 <h2> How It Works ? </h2>
 User selects source currency and target currency
