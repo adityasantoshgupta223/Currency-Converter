@@ -9,7 +9,7 @@ A simple and efficient Currency Converter web app that allows users to convert b
 4. 🔢 Accurate conversion calculations
 5. 📱 Simple and clean interface
 
-<h2> Tech Stack </h2>
+## Tech Stack 
 Frontend: HTML, CSS, JavaScript
 API: Exchange Rate API (Frankfurter)
 Version Control: Git + GitHub
