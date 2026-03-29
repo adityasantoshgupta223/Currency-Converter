@@ -51,19 +51,20 @@ Aditya Gupta
 
 Contributions are welcome!
 
-Fork the repo
-Create your branch (git checkout -b feature-name)
-Commit changes (git commit -m 'Add feature')
-Push to branch (git push origin feature-name)
-Open a Pull Request
-📄 License
+1. Fork the repo
+2. Create your branch (git checkout -b feature-name)
+3. Commit changes (git commit -m 'Add feature')
+4. Push to branch (git push origin feature-name)
+5. Open a Pull Request
 
+
+## 📄 License
 This project is open-source and available under the MIT License.
 
-⭐ Show Your Support
+## ⭐ Show Your Support
 
 If you like this project:
 
- Star the repo
- Fork it
- Share it
+ 1. Star the repo
+ 2. Fork it
+ 3. Share it
