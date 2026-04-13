@@ -40,6 +40,10 @@ init();
      if(amt == null) return;
      let precision = document.getElementById("precision").value;
       
+     if(precision > 5){
+      alert("Precision max limit is 5") 
+      return;
+     } 
      let rate = (from === to) ? 1 : currencyFactor[from][to];
      let result = rate*amt;
      result = result.toFixed(precision)
