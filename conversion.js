@@ -1,5 +1,5 @@
 
-const url = "https://api.frankfurter.app/currencies";
+const url = "https://api.frankfurter.dev/v1/currencies";
 
 
 export default async function loadCurrencies() {

@@ -19,19 +19,21 @@
                 <h3 style="text-align: center;">Currency Converter</h3>
            <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding: 0 10px;"> 
             <div>
-                <legend>  <h2>Amount</h2></legend>
+                <label for="amount">  <h2>Amount</h2></label>
             <input class="amount" id="amount" type="number" min = "0"  placeholder="Enter the amount">
             </div>
            <div>
-            <legend>  <h2>Precision</h2></legend>
+            <label for="precision">  <h2>Precision</h2></label>
             <input class="precision" id="precision" type="number" min = "0" max="5" value="2" placeholder="precison..">
            </div>    
         </div>
         </div>
             <div class="box2">
                 <div class="from">
-                    <h2>From</h2>
-                    <select name="count1" class="currency"></select>
+                    <label for="count1">
+                           <h2>From</h2> 
+                    </label>
+                    <select name="count1" id="count1" class="currency"></select>
                 </div>
 
                 <div class="change">
@@ -39,8 +41,11 @@
                 </div>
 
                 <div class="to">
-                    <h2>To</h2>
-                    <select name="count1" class="currency"></select>
+                    <label for="count2"> 
+                        <h2>To</h2>  
+                    </label>
+
+                    <select name="count1" id="count2" class="currency"></select>
 
                 </div>
             </div>
