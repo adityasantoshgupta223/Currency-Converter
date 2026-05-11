@@ -19,7 +19,7 @@ A simple and efficient Currency Converter web app that allows users to convert b
 <h2>📂 Project Structure </h2>
 <pre>
  Currency-Converter/ 
- │── currency.html 
+ │── index.html 
  │── currency.css 
  │── currency.js 
  │── conversion.js 
@@ -37,7 +37,7 @@ cd Currency-Converter
 
 Then simply open:
 
-currency.html
+index.html
 
 in your browser.
 
