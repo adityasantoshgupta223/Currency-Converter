@@ -18,12 +18,21 @@ A simple and efficient Currency Converter web app that allows users to convert b
 
 <h2>📂 Project Structure </h2>
 <pre>
- Currency-Converter/ 
- │── index.html 
- │── currency.css 
- │── currency.js 
- │── conversion.js 
- │── README.md
+Currency-Converter/
+│── index.html
+│── README.md
+│
+├── assets/
+│   ├── images/
+│   └── video/
+│
+├── css/
+│   └── currency.css
+│   └── loader.css
+│
+└── js/
+    ├── currency.js
+    └── conversion.js
 </pre>
 
 <h2> How It Works ? </h2>
