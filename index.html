@@ -1,23 +1,28 @@
-<!DOCTYPE html>
+<!--  -->
+<!DOCTYPE html>  
 <html>
     <head>
         <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Currency Converter</title>
-        <link rel="stylesheet" href="currency.css" />
+        <link rel="stylesheet" href="/css/currency.css" />
+        <link rel="stylesheet" href="/css/loader.css" />
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="icon" href="./assets/currency-converter.jpg" type="image/jpg">
+       <link rel="icon" href="./assets/images/currency-converter.jpg" type="image/jpg">
     </head>
     <body>
-    <video autoplay muted loop id="currency">
-        <source src ="./assets/video.webm" type="video/webm">
+
+  <main>
+     <section>
+     <video autoplay muted loop id="currency">
+        <source src ="./assets/video/video.webm" type="video/webm">
     </video>
 
     <div class="container">
         <div class="box">
             <div>
                 <h3 style="text-align: center;">Currency Converter</h3>
-           <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding: 0 10px;"> 
+           <div class="box-1"> 
             <div>
                <label for="amount">  <h2>Amount</h2></label>
             <input class="amount" id="amount" type="number" min = "0"  placeholder="Enter the amount">
@@ -33,7 +38,7 @@
                    <label for="count1">
                            <h2>From</h2> 
                     </label>
-                    <select name="count1" class="currency"></select>
+                    <select id="count1" class="currency"></select>
                 </div>
 
                 <div class="change">
@@ -44,7 +49,7 @@
                    <label for="count2"> 
                         <h2>To</h2>  
                     </label>
-                    <select name="count1" class="currency"></select>
+                    <select id="count2" class="currency"></select>
 
                 </div>
             </div>
@@ -58,7 +63,12 @@
 
         </div>
     </div>
+   </section>
+  </main>
+
+      
+
 </body>
-    <script type="module" src="currency.js"></script>
+    <script type="module" src="/js/currency.js"></script>
 
 </html>
