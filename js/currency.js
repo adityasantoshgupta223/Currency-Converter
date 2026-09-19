@@ -36,7 +36,7 @@ function showLoader() {
         </defs>
 
         <image
-          href="assets/images/loader.jpg"
+          href="./assets/images/loader.jpg"
           x="10"
           y="11"
           width="80"
